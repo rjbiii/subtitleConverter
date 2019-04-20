@@ -7,11 +7,6 @@ from datetime import timedelta
 os.chdir('/home/john/Videos/SubtitleMod')
 
 
-#set the file name equal to the first .srt file it finds in the directory
-
-#CREATE TWO SEPARATE FUNCTIONS, one for addition one for subtraction
-#the addition will require timedelta and different formatting for the string replacement
-
 def hasten():
 
 	files = os.listdir()
