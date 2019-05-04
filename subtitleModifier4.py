@@ -56,7 +56,7 @@ def hasten():
 	print('Output filename:  output_' + os.listdir()[0])
 
 def delay():
-	print('This isn\'t ready yet')
+	
 	files = os.listdir()
 
 	for i in range(len(files)):
