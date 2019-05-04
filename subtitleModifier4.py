@@ -21,8 +21,7 @@ def hasten():
 	#establish the regex search and create list
 	timeRegex = re.compile(r'\d\d:\d\d:\d\d,\d\d\d')
 	origTimes = timeRegex.findall(content)
-	origTimes
-
+	
 	minutes = input('Minutes: ')
 	seconds = input('Seconds: ')
 	td = timedelta(minutes = int(minutes), seconds = int(seconds))
